@@ -1,10 +1,6 @@
-# 1. Na kartce papieru oblicz jak twój wiek będzie reprezentowany binarnie. Sprawdź, czy to samo zwróci Python.
-age = int(input("Type your age [years]: "))
-print("Your binary age is:", bin(age).lstrip('0b'))
-
 # 2. Dla podanej liczby w systemie dwójkowym bin_num = 1001111 oblicz wartość w systemie dziesiętnym. Zamianę z systemu
 # binarnego na dziesiętny napisz samodzielnie (nie korzystaj z metody wbudowanej).
-# Prosty sposób
+# Prostszy sposób
 decimal = (1 * 2 ** 6) \
           + (0 * 2 ** 5) \
           + (0 * 2 ** 4) \
@@ -35,11 +31,3 @@ decimal = (first * 2 ** i) \
           + (seventh * 2 ** (i - 6))
 
 print("(Hard way) Binary number", bin_num, "is", decimal, "in decimal.")
-
-# 3. Dla liczb hex_num = 1DB i oct_num = 2063 zwróć wartość w systemie dziesiętnym.
-hexadecimal = "1DB"
-octal = 2063
-hex_num = 0x1DB
-oct_num = 0o2063
-print("\nHexadecimal number", hexadecimal, "equals", hex_num, "in decimal.")
-print("Octal number", octal, "equals", oct_num, "in decimal.")

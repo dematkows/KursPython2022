@@ -43,3 +43,10 @@ for n in range(int(rounds)):
         print("Runda", str(n + 1) + ':', "Komputer wygrał!")
         # Wygrana jest podawana jako suma wygranych rund komputer vs użytkownik.
         print("=== Użytkownik " + str(wynik_user) + ':' + str(wynik_ai) + " Komputer ===\n")
+
+if wynik_user > wynik_ai:
+    print("\n!!! Grę wygrał użytkownik " + str(wynik_user) + ':' + str(wynik_ai) + " !!!")
+elif wynik_ai > wynik_user:
+    print("\n!!! Grę wygrał komputer " + str(wynik_ai) + ':' + str(wynik_user) + " !!!")
+else:
+    print("\n!!! Remis  " + str(wynik_user) + ':' + str(wynik_ai) + " !!!")
