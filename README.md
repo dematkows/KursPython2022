@@ -2,5 +2,6 @@
 
 This is a repo for Python course with CODE:ME 2022
 
-01 - introduction (cw1)
-02 - types & variables (cw2)
+1. Introduction (cw1)
+2. Types & variables (cw2)
+3. Controlling instructions: if, for, while (cw3)
