@@ -1,4 +1,4 @@
-# 1. Utwórz listę lists_to_dict zawierającą listy 2 elementowe. Przekształć ją w słownik dict_from_list.
+# 2. Utwórz listę lists_to_dict zawierającą listy 2 elementowe. Przekształć ją w słownik dict_from_list.
 
 tuples_to_dict = (
     ['czerwony', 'red'],
